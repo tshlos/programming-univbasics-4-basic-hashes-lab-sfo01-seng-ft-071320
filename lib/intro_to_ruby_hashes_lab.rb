@@ -6,9 +6,6 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  my_hash = {
-    noodle: "chi"
-  }
   dog[:noodle]
 end
 
@@ -26,5 +23,5 @@ end
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
-  number.object_id
+  object_id
 end
